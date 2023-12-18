@@ -1,7 +1,7 @@
 function addTask() {
   const taskInput = document.getElementById('taskInput').value;
   const importance = parseInt(document.getElementById('importanceSlider').value);
-  const urgency = parseInt(document.getElementById('urgencySlider').value);
+  const urgency = parseInt(document.getElementById('urgencyInput').value);
 
   const taskList = document.getElementById('taskList');
 
