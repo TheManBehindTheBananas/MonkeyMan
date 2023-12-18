@@ -17,6 +17,7 @@ body {
 
 .input-section input[type="text"],
 .input-section input[type="range"],
+.input-section label,
 .input-section button {
   margin-right: 10px;
 }
