@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.input-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.input-section input[type="text"],
+.input-section input[type="range"],
+.input-section button {
+  margin-right: 10px;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-list li {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+.task-list li button {
+  float: right;
+}
