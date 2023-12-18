@@ -3,6 +3,11 @@ function addTask() {
   const importance = parseInt(document.getElementById('importanceSlider').value);
   const urgency = parseInt(document.getElementById('urgencyInput').value);
 
+  if (isNaN(urgency) || urgency < 1 || urgency > 365) {
+    alert('Please enter urgency between 1 and 365.');
+    return;
+  }
+
   const taskList = document.getElementById('taskList');
 
   const li = document.createElement('li');
